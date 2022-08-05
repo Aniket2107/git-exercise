@@ -1,3 +1,4 @@
 My name has always been git-exercise
 My name used to be exercise-git-0.1
 I am about to check git stashing
+I have successfully tested git stash
