@@ -1,1 +1,1 @@
-My name is git-exercise
+My name used to be exercise-git-0.1
