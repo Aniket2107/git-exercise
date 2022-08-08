@@ -22,7 +22,7 @@ Create a new branch and push the changes
 
 ```
 git checkout -b exercise/conflict-resolution
-git add .
+git add exercise
 git commit -m "updated my_name.txt file"
 git push origin exercise/conflict-resolution
 ```
@@ -31,7 +31,7 @@ Move to main branch make changes and then push
 
 ```
 git checkout main
-git add .
+git add exercise
 git commit -m "updated my_name.txt file"
 git push origin main
 ```
@@ -41,7 +41,7 @@ Now merging, since the code has conflicts there are many ways to solve this:
 ```
 git pull origin exercise/conflict-resolution
 *(changes will be aborted due to conflicts one has to manually merge, open vscode and accept the needing changes)
-git add .
+git add exercise
 git commit -m "resolved merge conflicts"
 git push origin main
 
@@ -54,7 +54,7 @@ Check the difference in branches using the diff command
 ```
 git checkout -b exercise/diff-checker
 *(make changes)
-git add .
+git add exercise
 git commit -m "added new line in my_name file"
 
 git diff main exercise/diff-checker
@@ -85,7 +85,7 @@ git stash push
 git checkout main
 git stash pop
 *(merge the changes manually)
-git add .
+git add exercise
 git commit -m "Files merged using git stash"
 git push origin main
 ```
